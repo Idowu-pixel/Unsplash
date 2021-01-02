@@ -1,0 +1,59 @@
+.imageTwo {
+  width: fit-content;
+  height: fit-content;
+  position: relative;
+}
+
+.imageTwo__image {
+  width: 416px;
+  height: 300px;
+}
+
+.imageTwo__card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0;
+}
+
+.imageTwo__line {
+  width: 14.5em;
+}
+
+.imageTwo__arrow {
+  background-color: lightgray;
+  color: gray;
+  padding: 5px;
+}
+
+.imageTwo__title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-left: 4px;
+}
+
+.imageTwo__title > p {
+  margin-left: 3px;
+}
+
+.imageTwo__two {
+  position: absolute;
+  right: 5px;
+  color: gray;
+  margin-top: 10px;
+  margin-right: 5px;
+}
+
+.imageTwo__Icon {
+  margin-left: 5px;
+  background-color: lightgray !important;
+  padding: 5px;
+}
+
+.imageTwo__icon {
+  background-color: lightgray !important;
+  padding: 5px;
+}

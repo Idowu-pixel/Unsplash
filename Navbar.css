@@ -1,0 +1,93 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  max-width: 100%;
+  width: 100%;
+  background: white;
+  position: fixed;
+  top: 2.5em;
+  z-index: 100;
+}
+
+.navbar__all {
+  display: flex;
+}
+
+.navbar__sectionOne {
+  display: flex;
+  border-right: 1px solid lightgray;
+  margin-left: -15px;
+}
+
+.navbar__sectionTwo {
+  display: flex;
+  max-height: 120px;
+  overflow-x: scroll;
+}
+
+.navbar__text {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  font-weight: 500;
+  color: gray;
+  padding: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.navbar__textOne {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  margin-right: 15px;
+  color: gray;
+  cursor: pointer;
+}
+
+.navbar__text:hover,
+.navbar__text:focus,
+.navbar__textOne:hover,
+.navbar__textOne:focus {
+  color: black;
+  border-bottom: 3px solid black;
+}
+
+.navbar__sectionThree {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 30px;
+}
+
+.navbar__icon {
+  font-size: 1.5em !important;
+  color: gray;
+  cursor: pointer !important;
+  margin-right: -3px;
+}
+
+.navbar__icon:hover {
+  color: black;
+}
+
+/* .wrapper {
+  max-height: 120px;
+  border: 1px solid #ddd;
+  display: flex;
+  overflow-x: auto;
+}
+
+.wrapper::-webkit-scrollbar {
+  width: 0;
+}
+
+.wrapper .item {
+  min-width: 110px;
+  height: 110px;
+  line-height: 110px;
+  text-align: center;
+  background-color: #ddd;
+  margin-right: 2px;
+} */

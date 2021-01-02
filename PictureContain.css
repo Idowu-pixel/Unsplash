@@ -1,0 +1,36 @@
+.pictureContain {
+  /* display: grid;
+  grid-template-columns: auto 1fr auto;
+  grid-column-gap: 12px;
+  grid-row-gap: 12px; */
+  /*grid-template-areas:
+    "one two three"
+    "one two three"; */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  max-width: 100%;
+  width: 1300px;
+  margin: 0 auto;
+}
+
+.one {
+  grid-area: one;
+}
+.two {
+  grid-area: two;
+}
+
+.three {
+  grid-area: three;
+}
+
+/* .pictureContain {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 1.5rem;
+  grid-template-areas:
+    "img-1 img-2 img-3 img-4"
+    "img-1 img-5 img-6 1mg-7";
+} */

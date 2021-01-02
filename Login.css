@@ -1,0 +1,86 @@
+.login {
+  display: grid;
+  place-items: center;
+  background-color: black;
+  /* background-image: url("//source.unsplash.com/416x250/?hill?1"); */
+  height: 100vh;
+  width: 100%;
+}
+
+.login__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  border: 1px solid gray;
+  padding-bottom: 20px;
+  margin-bottom: 1em;
+}
+
+.login__container > h1 {
+  font-size: 3em;
+  font-size: 4em;
+  color: aliceblue;
+}
+
+.login__container > form {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  position: relative;
+}
+
+.login__container > form > input {
+  padding: 12px;
+  outline: none;
+  border-radius: 9px;
+}
+
+.login__container > form > p {
+  text-align: center;
+  font-size: x-large;
+  font-weight: 800;
+  color: white;
+}
+
+.login__container > p {
+  text-align: center;
+  color: white;
+  width: 70%;
+}
+
+.login__signIn {
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 2.5em;
+  padding: 8px 0;
+  font-size: x-large;
+  border-radius: 9px;
+  font-weight: 900;
+  color: white;
+  outline: none;
+  background-color: #3b5998;
+  border: none;
+}
+
+.login__register {
+  width: 81%;
+  padding: 8px 0;
+  border-radius: 9px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: white;
+  margin-top: 10px;
+  background-color: #3b5998;
+  margin-bottom: 1em;
+  outline: none;
+  border: none;
+}
+
+.login__icon {
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  font-size: 3.5em !important;
+  color: #3b5998;
+}

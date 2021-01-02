@@ -1,0 +1,131 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  max-width: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 200;
+  margin-left: -8px;
+}
+
+.header__iconInput {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  background-color: rgb(246, 246, 246);
+  padding: 10px;
+  border-radius: 99px;
+  text-align: center;
+}
+
+.header__iconInput .MuiSvgIcon-root {
+  background-color: rgb(246, 246, 246);
+}
+
+.header__inputTwo {
+  padding: 5px;
+  border: none;
+  background-color: rgb(246, 246, 246);
+  outline: none;
+  width: 100%;
+}
+
+.header__icon {
+  font-size: 40px !important;
+  margin-right: 15px;
+  margin-left: 15px;
+  color: black;
+  cursor: pointer;
+}
+
+.header__sectionTwo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 20px;
+  color: gray;
+}
+
+.header__sectionTwo > p:hover,
+.header__sectionTwo > .MuiSvgIcon-root:hover {
+  color: black;
+}
+
+.header__sectionTwo > p {
+  margin-right: 10px;
+  margin-left: 15px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.header__sectionTwo > p:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.header__sectionTwo > a {
+  color: black;
+  text-decoration: none;
+}
+
+.header__sectionTwo > a > p {
+  margin-right: 10px;
+  margin-left: 15px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.header__sectionTwo > a > p:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.header__sectionTwo > span {
+  font-size: 15px;
+}
+
+.header__iconTwo {
+  font-size: 25px !important;
+  color: gray;
+  cursor: pointer;
+}
+
+.header__sectionThree {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+  margin-left: 20px;
+}
+
+.header__sectionThree > input {
+  padding: 10px;
+  border: none;
+  background-color: rgb(246, 246, 246);
+  font-size: 15px;
+  outline: none;
+  border-radius: 6px;
+  width: 10em;
+  margin-right: 13px;
+  margin-left: 15px;
+  text-align: center;
+}
+
+.header__sectionThree > .MuiSvgIcon-root {
+  margin-right: 15px;
+  cursor: pointer !important;
+  color: gray;
+  cursor: pointer;
+}
+
+.header__iconThree {
+  font-size: 25px !important;
+  color: lightgray;
+  cursor: pointer;
+}
+
+.header__iconThree:hover {
+  color: black;
+}

@@ -1,0 +1,58 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  background-color: whitesmoke;
+  color: #333;
+} */
+
+/* .app {
+  margin: 0;
+  padding: 0;
+}
+
+.app__container {
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 40px;
+}
+
+.app__title {
+  font-size: 4.4rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.app__form {
+  display: grid;
+}
+
+.app__card-list {
+  column-count: 3;
+}
+
+.app__card {
+  margin-bottom: 1rem;
+  display: flex;
+}
+
+.app__card--image {
+  flex: 100%;
+  margin-top: 1rem;
+  border-radius: 10px;
+}
+
+@media (min-width: 768px) {
+  .app__form {
+    grid-template-columns: auto 1fr auto;
+    grid-gap: 1rem;
+    align-items: center;
+  }
+  .app__input {
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .app__card-list {
+    column-count: 1;
+  }
+} */

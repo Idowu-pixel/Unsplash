@@ -1,0 +1,145 @@
+.displayTwo {
+  position: relative;
+  background-color: white;
+  max-width: 100%;
+  width: 100%;
+  position: fixed;
+  margin-top: -22.5em;
+  z-index: 100;
+}
+
+.displayTwo > h1 {
+  font-size: 3.5em;
+  margin-left: 0.2in;
+  margin-top: 3em;
+}
+
+.displayTwo__list {
+  max-width: 100%;
+  width: 1300px;
+  margin: 0 auto;
+  margin-top: -3em;
+  background-color: white;
+}
+
+.displayTwo__list > h1 {
+  font-size: 4em;
+  margin-left: 33px;
+  text-transform: capitalize;
+  width: 100%;
+  margin-top: 2em;
+  margin-bottom: 20px;
+  background-color: white;
+  z-index: 100;
+}
+
+.displayTwo__list > ul {
+  display: flex;
+  position: fixed;
+  list-style: none;
+  margin: 0 auto;
+  margin-left: -12px;
+  width: 1300px;
+  padding: 15px 25px;
+  background-color: white;
+  box-sizing: border-box;
+}
+
+.displayTwo__list > ul > li {
+  padding: 10px 30px;
+  margin-left: 5px;
+  color: gray;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+
+.displayTwo__list > ul > li:hover {
+  border: 1px solid black;
+  color: black;
+  transition: 0.5s ease-in-out;
+}
+
+.displayTwo__iconOne {
+  position: fixed;
+  right: -0.2em;
+  top: 2.6em;
+  margin-top: 6.8em;
+  padding: 10px 10px;
+  max-width: 100%;
+  width: 100px !important;
+  background-color: white;
+  z-index: 100;
+}
+
+.displayTwo__iconTwo {
+  position: fixed;
+  top: 11em;
+  left: -0.2em;
+  font-size: 1.5em !important;
+  padding: 10px 0;
+  margin-top: -1.6em;
+  max-width: 100%;
+  width: 100px !important;
+  text-align: left;
+  background-color: white;
+  z-index: 100;
+}
+
+.displayTwo__imageSection {
+  display: flex;
+  flex-wrap: wrap;
+  grid-gap: 12px;
+}
+
+.displayTwo__image {
+  width: 416px;
+  height: 250px;
+}
+
+@media only screen and (min-width: 768px) {
+  .displayTwo__iconTwo {
+    display: none !important;
+  }
+
+  .displayTwo__iconOne {
+    display: none !important;
+  }
+}
+
+/* @media screen and (max-width: 2300px) {
+  .displayTwo__iconOne {
+      display: none !important;
+  } */
+
+/* .page {
+  overflow: auto;
+  position: sticky;
+  top: 0;
+  left: 0;
+  padding: 15px 0;
+  white-space: nowrap;
+}
+.link {
+  padding: 10px 30px;
+  border-radius: 5px;
+  box-shadow: 0 020px -10px rgba(0, 0, 0, 0.5);
+  margin: 0 15px;
+  display: inline-block;
+}
+
+link a {
+  text-decoration: none;
+  outline: none;
+  text-transform: capitalize;
+  transition: 0.3s;
+}
+
+::-webkit-scrollbar {
+  height: 7px;
+  background: beige;
+}
+
+::-webkit-scrollbar-thumb {
+  height: 7px;
+  background: beige;
+} */

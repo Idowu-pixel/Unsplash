@@ -1,0 +1,59 @@
+.image {
+  width: fit-content;
+  height: fit-content;
+  position: relative;
+}
+
+.image__image {
+  width: 416px;
+  height: 300px;
+}
+
+.image__card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0;
+}
+
+.image__line {
+  width: 14.5em;
+}
+
+.image__arrow {
+  background-color: lightgray;
+  color: gray;
+  padding: 5px;
+}
+
+.image__title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-left: 4px;
+}
+
+.image__title > p {
+  margin-left: 3px;
+}
+
+.image__two {
+  position: absolute;
+  right: 5px;
+  color: gray;
+  margin-top: 10px;
+  margin-right: 5px;
+}
+
+.image__Icon {
+  margin-left: 5px;
+  background-color: lightgray;
+  padding: 5px;
+}
+
+.image__icon {
+  background-color: lightgray;
+  padding: 5px;
+}
